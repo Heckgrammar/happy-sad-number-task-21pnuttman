@@ -25,6 +25,9 @@
             //The program should take a number as input and output whether the number is happy or sad
             //test your program with the inputs of 19 and 20
             //show your output in the readme file
+
+            Console.WriteLine("Please enter a whole positive integer value");
+            int number = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
